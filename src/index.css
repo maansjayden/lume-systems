@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── A11y widget global class hooks ── */
+
+html.high-contrast {
+  filter: contrast(1.25) brightness(1.05);
+}
+
+html.large-text {
+  font-size: 120%;
+}
+
+html.motion-reduce *,
+html.motion-reduce *::before,
+html.motion-reduce *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+
+*:focus-visible {
+  outline: 3px solid #facc15;
+  outline-offset: 3px;
+}
+
+@keyframes lume-float {
+  0%, 100% { transform: translateY(0px) scale(1); }
+  50% { transform: translateY(-30px) scale(1.04); }
+}
