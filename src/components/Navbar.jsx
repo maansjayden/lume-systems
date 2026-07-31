@@ -46,20 +46,14 @@ export default function Navbar() {
             bg-[#030712]/80 backdrop-blur-xl
             px-4 py-2.5 shadow-xl shadow-black/30
           ">
-            {/* Logo + Status */}
-            <div className="flex items-center gap-3 shrink-0">
-              <a
-                href="#"
-                onClick={close}
-                className="text-base font-black tracking-tight text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-400 rounded-lg px-1"
-              >
-                Lume<span className="text-amber-500">Systems</span>
-              </a>
-              <span className="hidden sm:inline-flex items-center gap-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-0.5 text-[10px] font-mono font-medium text-emerald-400">
-                <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                Operational
-              </span>
-            </div>
+            {/* Logo */}
+            <a
+              href="#"
+              onClick={close}
+              className="text-base font-black tracking-tight text-white shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-400 rounded-lg px-1"
+            >
+              Lume<span className="text-amber-500">Systems</span>
+            </a>
 
             {/* Desktop links — centered */}
             <nav aria-label="Primary navigation" className="hidden md:flex items-center gap-1">
