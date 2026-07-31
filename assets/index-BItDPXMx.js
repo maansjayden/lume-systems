@@ -11,7 +11,7 @@ Error generating stack: `+e.message+`
             rounded-2xl border border-white/[0.1]
             bg-[#030712]/80 backdrop-blur-xl
             px-4 py-2.5 shadow-xl shadow-black/30
-          `,children:[(0,f.jsxs)(`div`,{className:`flex items-center gap-3 shrink-0`,children:[(0,f.jsxs)(`a`,{href:`#`,onClick:a,className:`text-base font-black tracking-tight text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-400 rounded-lg px-1`,children:[`Lume`,(0,f.jsx)(`span`,{className:`text-amber-500`,children:`Systems`})]}),(0,f.jsxs)(`span`,{className:`hidden sm:inline-flex items-center gap-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-0.5 text-[10px] font-mono font-medium text-emerald-400`,children:[(0,f.jsx)(`span`,{className:`h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse`}),`Operational`]})]}),(0,f.jsx)(`nav`,{"aria-label":`Primary navigation`,className:`hidden md:flex items-center gap-1`,children:p.map(e=>(0,f.jsx)(`a`,{href:e.href,className:`
+          `,children:[(0,f.jsxs)(`a`,{href:`#`,onClick:a,className:`text-base font-black tracking-tight text-white shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-400 rounded-lg px-1`,children:[`Lume`,(0,f.jsx)(`span`,{className:`text-amber-500`,children:`Systems`})]}),(0,f.jsx)(`nav`,{"aria-label":`Primary navigation`,className:`hidden md:flex items-center gap-1`,children:p.map(e=>(0,f.jsx)(`a`,{href:e.href,className:`
                     px-4 py-2 rounded-xl text-sm text-slate-400 font-medium
                     hover:text-white hover:bg-white/[0.06]
                     transition-all duration-200
