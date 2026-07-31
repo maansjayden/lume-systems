@@ -81,8 +81,8 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg sm:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-          End-to-end software engineering — progressive web apps, enterprise platforms,
-          cloud infrastructure, and WCAG-compliant digital experiences.
+          End-to-end software engineering — AI infrastructure, FastAPI backend microservices,
+          passive security tooling, cloud deployments, and WCAG-compliant digital experiences.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

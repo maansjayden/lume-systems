@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
+import Ventures from './components/Ventures';
 import Testimonials from './components/Testimonials';
 import TeamAndVentures from './components/TeamAndVentures';
 import Contact from './components/Contact';
@@ -26,6 +27,7 @@ export default function App() {
       <main id="main-content">
         <Hero />
         <Services />
+        <Ventures />
         <Testimonials />
         <TeamAndVentures />
         <Contact />
