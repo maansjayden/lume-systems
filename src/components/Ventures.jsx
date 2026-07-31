@@ -234,6 +234,32 @@ export default function Ventures() {
             </article>
           ))}
         </div>
+
+        {/* Security Posture Audit Banner */}
+        <div className="mt-16 rounded-2xl border border-amber-500/30 bg-gradient-to-r from-amber-500/10 via-[#030712] to-amber-500/5 p-8 sm:p-10 text-left flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+          <div className="space-y-2 max-w-xl">
+            <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-amber-400">
+              Passive Security Auditing Powered by Netgrade
+            </span>
+            <h3 className="text-2xl font-extrabold text-white tracking-tight">
+              Is Your Business Domain Protected?
+            </h3>
+            <p className="text-sm text-slate-400 leading-relaxed">
+              Run an instant 7-check security audit across your domain's SPF/DMARC email spoofing records, SSL/TLS ciphers, and HTTP security headers with Cloudflare edge rate-limiting and PyTest verified accuracy.
+            </p>
+          </div>
+          <a
+            href="https://netgrade.certifa.net"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-xl bg-amber-500 px-6 py-3.5 text-sm font-bold text-white hover:bg-amber-400 transition-colors shrink-0"
+          >
+            Run Security Audit
+            <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+              <line x1="7" y1="17" x2="17" y2="7" /><polyline points="7 7 17 7 17 17" />
+            </svg>
+          </a>
+        </div>
       </div>
     </section>
   );

@@ -119,15 +119,16 @@ export default function Hero() {
           </a>
         </div>
 
-        <div className="mt-20 pt-8 border-t border-white/[0.07] flex flex-wrap justify-center gap-10 sm:gap-16">
+        <div className="mt-16 pt-8 border-t border-white/[0.07] grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
           {[
+            { value: '100%', label: 'PyTest Coverage (Netgrade)' },
+            { value: 'Cloudflare Edge', label: 'Rate-Limiting & Proxy WAF' },
+            { value: '< 5s', label: 'Biosecurity Alert Latency' },
             { value: 'WCAG 2.2 AAA', label: 'Accessibility Standard' },
-            { value: 'Enterprise', label: 'Grade Infrastructure' },
-            { value: 'South Africa', label: 'Headquartered' },
           ].map((stat) => (
-            <div key={stat.label} className="text-center">
-              <div className="text-base font-extrabold text-white tracking-tight">{stat.value}</div>
-              <div className="text-xs text-slate-600 uppercase tracking-widest mt-1">{stat.label}</div>
+            <div key={stat.label} className="text-center p-4 rounded-xl border border-white/[0.05] bg-white/[0.01]">
+              <div className="text-lg font-mono font-extrabold text-amber-400 tracking-tight">{stat.value}</div>
+              <div className="text-[10px] text-slate-500 uppercase font-mono tracking-widest mt-1">{stat.label}</div>
             </div>
           ))}
         </div>
