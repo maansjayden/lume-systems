@@ -1,0 +1,41 @@
+import{r as i,j as e}from"./main-DXoSr-qc.js";/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const b=a=>a.replace(/([a-z0-9])([A-Z])/g,"$1-$2").toLowerCase(),p=(...a)=>a.filter((s,t,r)=>!!s&&s.trim()!==""&&r.indexOf(s)===t).join(" ").trim();/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */var y={xmlns:"http://www.w3.org/2000/svg",width:24,height:24,viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:2,strokeLinecap:"round",strokeLinejoin:"round"};/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const v=i.forwardRef(({color:a="currentColor",size:s=24,strokeWidth:t=2,absoluteStrokeWidth:r,className:o="",children:n,iconNode:g,...w},N)=>i.createElement("svg",{ref:N,...y,width:s,height:s,stroke:a,strokeWidth:r?Number(t)*24/Number(s):t,className:p("lucide",o),...w},[...g.map(([f,k])=>i.createElement(f,k)),...Array.isArray(n)?n:[n]]));/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const l=(a,s)=>{const t=i.forwardRef(({className:r,...o},n)=>i.createElement(v,{ref:n,iconNode:s,className:p(`lucide-${b(a)}`,r),...o}));return t.displayName=`${a}`,t};/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const L=l("ArrowLeft",[["path",{d:"m12 19-7-7 7-7",key:"1l729n"}],["path",{d:"M19 12H5",key:"x3x0zl"}]]);/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const A=l("ArrowRight",[["path",{d:"M5 12h14",key:"1ays0h"}],["path",{d:"m12 5 7 7-7 7",key:"xquz4c"}]]);/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const c=l("ArrowUpRight",[["path",{d:"M7 7h10v10",key:"1tivn9"}],["path",{d:"M7 17 17 7",key:"1vkiza"}]]);/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const x=l("MessageCircle",[["path",{d:"M7.9 20A9 9 0 1 0 4 16.1L2 22Z",key:"vv11sd"}]]),j="https://wa.me/27737220854?text=Hi%20Lume%2C%20I%27d%20like%20to%20get%20in%20touch.",d="/",h=`${d}contact/`;function m(){return e.jsxs("a",{className:"brand",href:d,"aria-label":"Lume Systems home",children:[e.jsxs("span",{className:"brand-mark","aria-hidden":"true",children:[e.jsx("span",{}),e.jsx("span",{}),e.jsx("span",{})]}),e.jsxs("span",{className:"brand-name",children:["lume",e.jsx("span",{children:"systems"})]})]})}function u(){return e.jsxs("footer",{className:"teaser-footer",children:[e.jsx(m,{}),e.jsx("span",{children:"Thoughtful tools for the people doing the work."}),e.jsx("nav",{"aria-label":"Footer",children:e.jsx("a",{href:h,children:"Contact"})}),e.jsx("small",{children:"© 2026 Lume Systems (Pty) Ltd · Cape Town"})]})}function C(){return e.jsxs("div",{className:"teaser-page",children:[e.jsxs("header",{className:"teaser-header",children:[e.jsx(m,{}),e.jsxs("a",{className:"teaser-header-link",href:h,children:["Contact ",e.jsx(c,{size:15})]})]}),e.jsxs("main",{children:[e.jsxs("section",{className:"teaser-hero",children:[e.jsxs("div",{className:"teaser-copy",children:[e.jsxs("div",{className:"teaser-status",children:[e.jsx("span",{})," A new home for Lume is on the way"]}),e.jsxs("h1",{"aria-label":"Something useful is cooking.",children:["Something useful",e.jsx("br",{}),"is ",e.jsx("span",{children:"cooking."})]}),e.jsx("p",{children:"We’re preparing a better home for the practical tools and support that help South African businesses get on with their day."}),e.jsxs("div",{className:"teaser-actions",children:[e.jsxs("a",{className:"teaser-button teaser-button-primary",href:j,target:"_blank",rel:"noreferrer",children:[e.jsx(x,{size:16})," WhatsApp Lume ",e.jsx(A,{size:16})]}),e.jsx("a",{className:"teaser-button teaser-button-secondary",href:h,children:"Contact details"})]}),e.jsx("p",{className:"teaser-reassurance",children:"The workspace is not open to the public yet."})]}),e.jsxs("div",{className:"teaser-art","aria-label":"An illustrated Lume cooking pot, gently steaming",children:[e.jsxs("div",{className:"teaser-art-caption",children:[e.jsx("span",{children:"On the stove"}),e.jsx("span",{children:"Made in Cape Town"})]}),e.jsxs("svg",{className:"teaser-pot",viewBox:"0 0 480 430",role:"img","aria-labelledby":"pot-title",children:[e.jsx("title",{id:"pot-title",children:"A steaming pot with the Lume mark"}),e.jsx("path",{className:"teaser-steam",d:"M174 116c-25-24 20-37-4-62m69 62c-25-24 20-37-4-62m70 62c-25-24 20-37-4-62"}),e.jsx("path",{className:"teaser-lid",d:"M128 171c5-31 50-52 112-52s107 21 112 52H128Z"}),e.jsx("path",{className:"teaser-lid-detail",d:"M220 118c0-15 9-24 20-24s20 9 20 24"}),e.jsx("path",{className:"teaser-pot-body",d:"M114 172h252l-24 154c-3 19-17 32-37 32h-130c-20 0-34-13-37-32l-24-154Z"}),e.jsx("path",{className:"teaser-pot-handle",d:"M111 206H79c-26 0-35 16-35 43s9 42 35 42h40m242-85h32c26 0 35 16 35 43s-9 42-35 42h-40"}),e.jsx("path",{className:"teaser-pot-rim",d:"M115 172h250"}),e.jsx("path",{className:"teaser-pot-mark",d:"M207 248v49m29-68v68m29-88v88"}),e.jsx("path",{className:"teaser-hob",d:"M113 378h254m-221 16h188"}),e.jsx("path",{className:"teaser-hob-glow",d:"M176 378c6-11 13-11 19 0m31 0c6-11 13-11 19 0m31 0c6-11 13-11 19 0"})]}),e.jsxs("div",{className:"teaser-art-note",children:[e.jsx("span",{className:"teaser-note-mark",children:"L"}),e.jsxs("span",{children:[e.jsx("strong",{children:"Good things take a little tinkering."}),e.jsx("small",{children:"Check back soon."})]})]})]})]}),e.jsxs("section",{className:"teaser-work","aria-label":"The businesses Lume is built for",children:[e.jsx("p",{children:"Built around the real work"}),e.jsxs("div",{children:[e.jsx("span",{children:"Workshops"}),e.jsx("i",{}),e.jsx("span",{children:"Fleet operators"}),e.jsx("i",{}),e.jsx("span",{children:"Small businesses"})]})]})]}),e.jsx(u,{})]})}function M(){return e.jsxs("div",{className:"teaser-page contact-page",children:[e.jsxs("header",{className:"teaser-header",children:[e.jsx(m,{}),e.jsxs("a",{className:"teaser-header-link",href:d,children:[e.jsx(L,{size:15})," Back to Lume"]})]}),e.jsxs("main",{className:"contact-main",children:[e.jsxs("div",{className:"teaser-status",children:[e.jsx("span",{})," Lume Systems · Cape Town"]}),e.jsxs("h1",{children:["Let’s talk",e.jsx("br",{}),"about ",e.jsx("span",{children:"your work."})]}),e.jsx("p",{className:"contact-intro",children:"Tell us what you’re building, where admin gets in the way, or how we can help."}),e.jsxs("section",{className:"contact-details",children:[e.jsxs("div",{className:"contact-whatsapp",children:[e.jsx(x,{size:22}),e.jsxs("div",{children:[e.jsx("strong",{children:"WhatsApp is the quickest way to reach us"}),e.jsx("span",{children:"Message the Lume team directly."})]}),e.jsxs("a",{className:"teaser-button contact-whatsapp-button",href:j,target:"_blank",rel:"noreferrer",children:["Open WhatsApp ",e.jsx(c,{size:15})]})]}),e.jsxs("a",{className:"contact-email",href:"mailto:info@lumesystems.co.za",children:[e.jsx("span",{children:"Email"}),e.jsx("strong",{children:"info@lumesystems.co.za"}),e.jsx(c,{size:16})]}),e.jsxs("a",{className:"contact-email",href:"tel:+27737220854",children:[e.jsx("span",{children:"Phone"}),e.jsx("strong",{children:"+27 73 722 0854"}),e.jsx(c,{size:16})]})]}),e.jsx("p",{className:"contact-note",children:"Our workspace is not open to the public yet. We’re happy to hear from you in the meantime."})]}),e.jsx(u,{})]})}function T(){return window.location.pathname.startsWith("/contact")?e.jsx(M,{}):e.jsx(C,{})}export{C as ComingSoonPage,M as ContactPage,T as default};
